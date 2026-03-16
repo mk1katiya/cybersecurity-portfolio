@@ -25,7 +25,7 @@ Organized by modules/rooms. Each includes:
 
 
 ## Badges & Progress
-![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/katiya.png)  <!-- Apna badge link daal do from THM profile -->
+<img src="https://tryhackme-badges.s3.amazonaws.com/katiya.png" alt="Your Image Badge" />
 
 GitHub Stats | TryHackMe Profile: https://tryhackme.com/p/katiya
 
