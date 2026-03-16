@@ -24,11 +24,18 @@ Organized by modules/rooms. Each includes:
 
 - More coming soon...
 
+## Certifications & Achievements
 
-## Badges & Progress
-![TryHackMe Badge](katiya.png)
+### TryHackMe Pre-Security Path
+- Completed the foundational Pre-Security learning path (Networking, Linux, Web Fundamentals, etc.).
+- Earned Certificate of Completion.
+![TryHackMe Badge](write-ups/pre-security-mahesh.jpg)
 
-GitHub Stats | TryHackMe Profile: https://tryhackme.com/p/katiya
+### TryHackMe Profile Badge
+![TryHackMe Badge](write-ups/katiya.png)
+
+- View full profile: https://tryhackme.com/p/katiya
+- Path: https://tryhackme.com/path/outline/presecurity
 
 Thanks for visiting! Open to internships in VAPT/SOC. Reach out: katiya.mahesh@gmail.com
 
