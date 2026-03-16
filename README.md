@@ -19,8 +19,8 @@ Welcome! This repo documents my hands-on learning in ethical hacking, vulnerabil
 ## TryHackMe Write-ups (Jr Penetration Tester Path)
 Organized by modules/rooms. Each includes:
 
-- [Basic Pentesting](write-ups/basic-commands.txt) –
-- [Web Fundamentals](write-ups/windows-cmd.txt) – 
+- [Basic Pentesting](write-ups/basic-commands) –
+- [Web Fundamentals](write-ups/windows-cmd) – 
 
 - More coming soon...
 
