@@ -1,0 +1,42 @@
+## Windows CMD Basic Commands Cheat Sheet (Junior Level / Same as Linux basics)
+
+### 1. Navigation & Listing
+dir                     # List files and folders in current directory (Linux: ls)
+dir /a                  # Include hidden files and system files (Linux: ls -la)
+dir /a:h                # Only hidden files
+dir /s                  # Recursive – current + all subfolders mein list (Linux: ls -R)
+dir /p                  # Page by page (pause kar ke dekhne ke liye)
+dir /b                  # Bare format – sirf naam, no extra details
+cd                      # Current directory ka path dikhao (Linux: pwd) – agar argument nahi diya
+cd <path>               # Change directory (Linux: cd <path>)
+cd ..                   # Ek folder peeche jaao (Linux: cd ..)
+cd \                    # Root drive (jaise C:\) pe jaao
+cd ~                    # Nahi chalta Windows CMD mein (Linux mein home hota hai)
+pushd <path>            # Folder change + stack pe save (baad mein popd se wapas)
+popd                    # Pehle wale folder pe wapas
+
+### 2. File Contents Display
+type <file.txt>         # File ka content screen pe dikhao (Linux: cat <file>)
+more <file.txt>         # Page by page dekhne ke liye (Linux: more / less)
+type file.txt | more    # Same as above
+
+### 3. Clear Screen
+cls                     # Screen clear kar do (Linux: clear ya Ctrl+L)
+
+### 4. Basic File/Folder Operations (Bonus – common ones)
+copy file.txt d:\backup\   # File copy (Linux: cp)
+xcopy folder1 d:\backup /s /e  # Folder copy recursive (Linux: cp -r)
+move file.txt d:\new\      # Move / rename (Linux: mv)
+del file.txt               # Delete file (Linux: rm)
+del /s /q folder\*.*       # Folder ke andar sab delete (careful!)
+mkdir newfolder            # Naya folder banao (Linux: mkdir)
+rmdir folder               # Empty folder delete (Linux: rmdir)
+rmdir /s /q folder         # Folder + andar sab delete (Linux: rm -r -f)
+
+### 5. Current Location & System Info
+cd                         # Current path dikhao (Linux: pwd)
+chdir                      # Same as cd (without argument)
+ver                        # Windows version dikhao
+systeminfo                 # Full system info (RAM, OS, etc.)
+time                       # Time dekho / set karo
+date                       # Date dekho / set karo
