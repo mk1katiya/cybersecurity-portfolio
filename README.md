@@ -1,3 +1,4 @@
+
 # Cybersecurity Portfolio - Mahesh
 
 Electronics & Communication Engineer | 4+ years Web Developer | Transitioning to Penetration Testing & Cybersecurity
@@ -25,6 +26,7 @@ Organized by modules/rooms. Each includes:
 
 
 ## Badges & Progress
+![TryHackMe Badge](katiya.png)
 
 GitHub Stats | TryHackMe Profile: https://tryhackme.com/p/katiya
 
