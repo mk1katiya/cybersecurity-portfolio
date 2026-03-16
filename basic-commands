@@ -1,0 +1,89 @@
+## Kali Linux Basic Commands Cheat Sheet (Junior Pentester)
+
+### 1. Navigation & Listing
+ls                  # List files in current directory
+ls -l               # Detailed list (permissions, owner, size, date)
+ls -la              # Show hidden files too (starting with .)
+ls -lh              # Human-readable sizes (KB, MB etc.)
+pwd                 # Print current working directory
+cd /path/to/dir     # Change to specific directory
+cd ..               # Go one directory up
+cd ~                # Go to home directory
+cd /                # Go to root directory
+cd -                # Go back to previous directory
+
+### 2. File & Directory Operations
+touch file.txt      # Create empty file
+mkdir folder        # Create directory
+mkdir -p path/to/nested/folder  # Create nested directories
+cp file.txt /dest/          # Copy file
+cp -r folder /dest/         # Copy directory recursively
+mv old.txt new.txt          # Rename or move file
+mv folder /dest/            # Move directory
+rm file.txt                 # Remove file
+rm -r folder                # Remove directory (recursive)
+rm -rf folder               # Force remove (very dangerous!)
+cat file.txt                # Display file content
+less file.txt               # View file page by page (q to quit)
+head -n 10 file.txt         # First 10 lines
+tail -n 10 file.txt         # Last 10 lines
+tail -f /var/log/syslog     # Follow log file in real-time
+
+### 3. Searching & Finding
+find / -name "*.txt" 2>/dev/null     # Search entire system for files
+find ~ -name "secret*"               # Search in home directory
+locate filename                      # Fast search (run sudo updatedb first)
+grep "error" /var/log/auth.log       # Search for "error" in log file
+grep -r "password" /etc/             # Recursive search in directory
+grep -i "fail" file.txt              # Case-insensitive search
+
+### 4. System Information
+uname -a            # Kernel version, architecture, etc.
+uptime              # How long system has been running
+df -h               # Disk usage (human readable)
+free -h             # Memory/RAM usage
+lsblk               # List block devices (disks & partitions)
+lsb_release -a      # Distribution info
+cat /etc/os-release # Another way to see OS details
+
+### 5. Processes & Users
+ps aux              # List all running processes
+top                 # Interactive process viewer (q to quit)
+htop                # Better version of top (if installed)
+whoami              # Current username
+id                  # User ID, groups
+sudo su             # Switch to root
+sudo -i             # Root login shell
+exit                # Exit current shell / logout
+
+### 6. Network Basics
+ip addr             # Show IP addresses & interfaces
+ip link             # Show network interfaces
+ping 8.8.8.8        # Test connectivity
+ifconfig            # Old command (may need net-tools package)
+netstat -tuln       # Listening ports (old)
+ss -tuln            # Modern replacement for netstat
+
+### 7. Useful Tricks & Shortcuts
+clear               # Clear terminal (or Ctrl + L)
+history             # Show command history
+!n                  # Run command number n from history
+Ctrl + C            # Stop current command
+Ctrl + Z            # Suspend current process (bg to resume)
+Ctrl + D            # Exit shell / logout
+Tab                 # Auto-complete commands/files
+Tab Tab             # Show all possible completions
+
+### Quick One-liners (from your examples)
+cat /etc/shadow                     # View password hashes (needs root)
+grep "failed" /var/log/auth.log     # Failed login attempts
+sudo openvpn client.ovpn            # Connect to VPN
+uname -a                            # Kernel info
+df -h                               # Disk space
+
+Save
+nano ~/kali-basic-commands.txt
+# Paste karke Ctrl+O → Enter → Ctrl+X
+
+display
+cat ~/kali-basic-commands.txt | less
