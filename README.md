@@ -17,19 +17,15 @@ Welcome! This repo documents my hands-on learning in ethical hacking, vulnerabil
 
 ## TryHackMe Write-ups (Jr Penetration Tester Path)
 Organized by modules/rooms. Each includes:
-- Step-by-step walkthrough
-- Commands used
-- Screenshots/PoC
-- Key learnings & remediation
 
-- [Basic Pentesting](writeups/basic-pentesting.md) –
-- [Web Fundamentals](writeups/web-fundamentals.md) – 
+- [Basic Pentesting](writeups/basic-commands.txt) –
+- [Web Fundamentals](writeups/windows-cmd.txt) – 
 
 - More coming soon...
 
 
 ## Badges & Progress
-![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/yourusername.png)  <!-- Apna badge link daal do from THM profile -->
+![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/katiya.png)  
 
 GitHub Stats | TryHackMe Profile: https://tryhackme.com/p/katiya
 
