@@ -36,6 +36,7 @@ Organized by modules/rooms. Each includes:
 
 - View full profile: https://tryhackme.com/p/katiya
 - Path: https://tryhackme.com/path/outline/presecurity
+- My website: https://mk1katiya.github.io/mahesh/ 
 
 Thanks for visiting! Open to internships in VAPT/SOC. Reach out: katiya.mahesh@gmail.com
 
